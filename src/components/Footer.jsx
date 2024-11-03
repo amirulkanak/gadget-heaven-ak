@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="mt-auto">
-      <section className="max-width-wrapper py-[6.25rem] bg-white flex flex-col items-center">
+    <footer className="mt-auto bg-white">
+      <section className="max-width-wrapper py-[6.25rem] flex flex-col items-center">
         <div className="space-y-3 pb-8 border-b mb-8 w-full text-center">
           <h2 className="text-clr-woodsmoke text-[2rem] leading-[2.5rem] font-bold">
             Gadget Heaven

@@ -15,7 +15,7 @@ module.exports = {
       // Custom colors
       colors: {
         'clr-woodsmoke': '#09080F',
-        'clr-paradiso': '#0E7A81',
+        'clr-electric-violet': '#9538e2',
       },
     },
   },

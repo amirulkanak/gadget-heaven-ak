@@ -17,6 +17,6 @@
 
 @layer utilities {
   body {
-    @apply font-sora;
+    @apply font-sora bg-[#F6F6F6];
   }
 }
