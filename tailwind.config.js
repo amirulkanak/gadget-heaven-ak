@@ -6,15 +6,15 @@ module.exports = {
       screens: {
         xs: '340px',
         tab: '834px',
-        pc: '1320px',
+        pc: '1280px',
       },
       // Custom font family
       fontFamily: {
-        lato: ['"Lato"', 'sans-serif'],
+        sora: ['"Sora"', 'serif'],
       },
       // Custom colors
       colors: {
-        'clr-woodsmoke': '#131313',
+        'clr-woodsmoke': '#09080F',
         'clr-paradiso': '#0E7A81',
       },
     },

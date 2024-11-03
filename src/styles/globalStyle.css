@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,12 +11,12 @@
 
 @layer components {
   .max-width-wrapper {
-    @apply max-w-[82.5rem] mx-auto pc:px-0 px-4;
+    @apply max-w-[80rem] mx-auto pc:px-0 px-4;
   }
 }
 
 @layer utilities {
   body {
-    @apply font-lato;
+    @apply font-sora;
   }
 }

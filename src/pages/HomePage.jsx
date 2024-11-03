@@ -5,7 +5,7 @@ const HomePage = () => {
     <>
       <Header />
       <main>
-        <h1>Welcome to the home page!</h1>
+        <h1 className="font-bold">Welcome</h1>
       </main>
     </>
   );
