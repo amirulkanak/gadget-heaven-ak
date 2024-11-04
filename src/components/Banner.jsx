@@ -1,4 +1,5 @@
 import HeroBG from '../assets/images/hero-banner.png';
+
 const Banner = () => {
   return (
     <section className="max-width-wrapper -mt-[8rem] lg:-mt-[13.5rem]">

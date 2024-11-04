@@ -19,5 +19,11 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
+
+  // Config for daisyUI
+  daisyui: {
+    themes: ['light'], // only 'light' theme available
+    prefix: 'da-', // change prefix for all classes
+  },
 };

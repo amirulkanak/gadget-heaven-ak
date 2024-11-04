@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Banner from './Banner';
 
 const Header = () => {
@@ -16,9 +17,11 @@ const Header = () => {
             </p>
 
             {/* Action button navigate to the Dashboard page */}
-            <button className="mt-2 px-[1.88rem] py-[0.94rem] text-clr-electric-violet bg-white text-xl font-bold rounded-[2rem]">
+            <Link
+              to={'/dashboard'}
+              className="mt-2 px-[1.88rem] py-[0.94rem] text-clr-electric-violet bg-white text-xl font-bold rounded-[2rem]">
               Shop Now
-            </button>
+            </Link>
           </section>
         </div>
       </header>
