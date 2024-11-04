@@ -1,8 +1,16 @@
-const CategoryBtn = ({ children, handleClick }) => {
+const CategoryBtn = ({
+  children,
+  handleCategoryBtnClick,
+  activeCategoryBtn,
+}) => {
   return (
     <button
-      onClick={() => handleClick(children)}
-      className="max-w-[12rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
+      onClick={() => handleCategoryBtnClick(children)}
+      className={`max-w-[12rem] w-full py-3 rounded-[2rem] ${
+        activeCategoryBtn === children
+          ? 'text-white bg-clr-electric-violet'
+          : 'text-clr-woodsmoke bg-slate-300'
+      }`}>
       {children}
     </button>
   );
