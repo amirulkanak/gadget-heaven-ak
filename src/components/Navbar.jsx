@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="max-w-[96.5rem] w-full mx-auto px-2">
-      <div className={isHome && 'bg-clr-electric-violet rounded-t-[2rem]'}>
+      <div className={isHome ? 'bg-clr-electric-violet rounded-t-[2rem]' : ''}>
         <section className="max-width-wrapper py-6 mt-6 flex items-center justify-between">
           {/* logo */}
           <Link
