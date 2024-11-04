@@ -1,0 +1,342 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphonel5promax.jpg",
+    "category": "Phones",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultra-wide)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S21 Ultra",
+    "product_image": "https://example.com/galaxys21ultra.jpg",
+    "category": "Phones",
+    "price": 1199,
+    "description": "The Samsung Galaxy S21 Ultra offers a premium smartphone experience.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED display",
+      "Exynos 2100",
+      "Quad-camera system (108MP Main, 10MP Periscope, 10MP Telephoto, 12MP Ultra-wide)",
+      "5000mAh battery",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/dellxps13.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "The Dell XPS 13 is a powerful and compact laptop.",
+    "specification": [
+      "13.4-inch FHD+ display",
+      "Intel Core i7-1165G7",
+      "16GB RAM",
+      "512GB SSD",
+      "Intel Iris Xe Graphics"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Apple MacBook Pro 16",
+    "product_image": "https://example.com/macbookpro16.jpg",
+    "category": "Laptops",
+    "price": 2399,
+    "description": "The MacBook Pro 16 is a high-performance laptop for professionals.",
+    "specification": [
+      "16-inch Retina display",
+      "Apple M1 Pro chip",
+      "16GB RAM",
+      "1TB SSD",
+      "AMD Radeon Pro 5500M"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Sony WH-1000XM4",
+    "product_image": "https://example.com/sonywh1000xm4.jpg",
+    "category": "Accessories",
+    "price": 349,
+    "description": "The Sony WH-1000XM4 offers industry-leading noise cancellation.",
+    "specification": [
+      "Over-ear design",
+      "30-hour battery life",
+      "Touch sensor controls",
+      "Quick attention mode",
+      "Bluetooth 5.0"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Apple Watch Series 7",
+    "product_image": "https://example.com/applewatchseries7.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "The Apple Watch Series 7 is the most advanced Apple Watch yet.",
+    "specification": [
+      "Always-On Retina display",
+      "Blood Oxygen app",
+      "ECG app",
+      "Fitness tracking",
+      "Water resistant"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "https://example.com/galaxywatch4.jpg",
+    "category": "Smart Watches",
+    "price": 249,
+    "description": "The Samsung Galaxy Watch 4 is a versatile smartwatch with advanced health tracking.",
+    "specification": [
+      "Super AMOLED display",
+      "BioActive Sensor",
+      "Advanced sleep tracking",
+      "GPS",
+      "Water resistant"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Logitech MX Master 3",
+    "product_image": "https://example.com/logitechmxmaster3.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "The Logitech MX Master 3 is a precision mouse with advanced features.",
+    "specification": [
+      "Ergonomic design",
+      "MagSpeed scroll wheel",
+      "4000 DPI sensor",
+      "USB-C rechargeable",
+      "Bluetooth and USB receiver"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P009",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/hpspectrex360.jpg",
+    "category": "Laptops",
+    "price": 1299,
+    "description": "The HP Spectre x360 is a versatile 2-in-1 laptop with a sleek design.",
+    "specification": [
+      "13.3-inch 4K UHD display",
+      "Intel Core i7-1165G7",
+      "16GB RAM",
+      "1TB SSD",
+      "Intel Iris Xe Graphics"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Google Pixel 6 Pro",
+    "product_image": "https://example.com/pixel6pro.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "The Google Pixel 6 Pro offers a pure Android experience with advanced camera features.",
+    "specification": [
+      "6.7-inch QHD+ OLED display",
+      "Google Tensor chip",
+      "Triple-camera system (50MP Main, 48MP Telephoto, 12MP Ultra-wide)",
+      "5000mAh battery",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Microsoft Surface Laptop 4",
+    "product_image": "https://example.com/surfacelaptop4.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "The Microsoft Surface Laptop 4 is a sleek and powerful laptop with a premium build.",
+    "specification": [
+      "13.5-inch PixelSense display",
+      "AMD Ryzen 5 4680U",
+      "8GB RAM",
+      "256GB SSD",
+      "Integrated AMD Radeon Graphics"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Bose QuietComfort 35 II",
+    "product_image": "https://example.com/boseqc35ii.jpg",
+    "category": "Accessories",
+    "price": 299,
+    "description": "The Bose QuietComfort 35 II offers excellent noise cancellation and comfort.",
+    "specification": [
+      "Over-ear design",
+      "20-hour battery life",
+      "Google Assistant and Alexa built-in",
+      "Bluetooth and NFC pairing",
+      "Noise-rejecting dual-microphone system"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Fitbit Charge 5",
+    "product_image": "https://example.com/fitbitcharge5.jpg",
+    "category": "Smart Watches",
+    "price": 179,
+    "description": "The Fitbit Charge 5 is a fitness tracker with advanced health metrics.",
+    "specification": [
+      "AMOLED display",
+      "Built-in GPS",
+      "Stress management tools",
+      "Sleep tracking",
+      "Water resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P014",
+    "product_title": "OnePlus 9 Pro",
+    "product_image": "https://example.com/oneplus9pro.jpg",
+    "category": "Phones",
+    "price": 969,
+    "description": "The OnePlus 9 Pro offers a flagship experience with a focus on speed and performance.",
+    "specification": [
+      "6.7-inch Fluid AMOLED display",
+      "Snapdragon 888",
+      "Quad-camera system (48MP Main, 50MP Ultra-wide, 8MP Telephoto, 2MP Monochrome)",
+      "4500mAh battery",
+      "Up to 256GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "https://example.com/rogzephyrusg14.jpg",
+    "category": "Laptops",
+    "price": 1499,
+    "description": "The Asus ROG Zephyrus G14 is a powerful gaming laptop with a compact design.",
+    "specification": [
+      "14-inch FHD display",
+      "AMD Ryzen 9 5900HS",
+      "16GB RAM",
+      "1TB SSD",
+      "NVIDIA GeForce RTX 3060"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P016",
+    "product_title": "Jabra Elite 85t",
+    "product_image": "https://example.com/jabraelite85t.jpg",
+    "category": "Accessories",
+    "price": 229,
+    "description": "The Jabra Elite 85t offers advanced noise cancellation and superior sound quality.",
+    "specification": [
+      "In-ear design",
+      "ANC and HearThrough modes",
+      "Up to 25 hours of battery life with case",
+      "Wireless charging",
+      "Bluetooth 5.1"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Garmin Forerunner 945",
+    "product_image": "https://example.com/forerunner945.jpg",
+    "category": "Smart Watches",
+    "price": 599,
+    "description": "The Garmin Forerunner 945 is a premium GPS smartwatch for serious athletes.",
+    "specification": [
+      "1.2-inch display",
+      "Advanced training metrics",
+      "Music storage",
+      "Garmin Pay",
+      "Water resistant"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P018",
+    "product_title": "Sony Xperia 1 III",
+    "product_image": "https://example.com/xperia1iii.jpg",
+    "category": "Phones",
+    "price": 1299,
+    "description": "The Sony Xperia 1 III offers a cinematic experience with a 4K HDR OLED display.",
+    "specification": [
+      "6.5-inch 4K HDR OLED display",
+      "Snapdragon 888",
+      "Triple-camera system (12MP Main, 12MP Telephoto, 12MP Ultra-wide)",
+      "4500mAh battery",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P019",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://example.com/thinkpadx1carbon.jpg",
+    "category": "Laptops",
+    "price": 1699,
+    "description": "The Lenovo ThinkPad X1 Carbon is a business laptop with a durable design.",
+    "specification": [
+      "14-inch FHD display",
+      "Intel Core i7-1165G7",
+      "16GB RAM",
+      "1TB SSD",
+      "Intel Iris Xe Graphics"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Apple AirPods Pro",
+    "product_image": "https://example.com/airpodspro.jpg",
+    "category": "Accessories",
+    "price": 249,
+    "description": "The Apple AirPods Pro offers active noise cancellation and a customizable fit.",
+    "specification": [
+      "In-ear design",
+      "Active Noise Cancellation",
+      "Transparency mode",
+      "Wireless charging case",
+      "Bluetooth 5.0"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
