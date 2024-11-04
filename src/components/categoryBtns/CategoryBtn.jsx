@@ -1,7 +1,9 @@
-const CategoryBtn = () => {
+const CategoryBtn = ({ children, handleClick }) => {
   return (
-    <button className="max-w-[12rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
-      Mobiles
+    <button
+      onClick={() => handleClick(children)}
+      className="max-w-[12rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
+      {children}
     </button>
   );
 };
