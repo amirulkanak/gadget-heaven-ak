@@ -4,6 +4,7 @@ import HomePage from '../pages/HomePage';
 import NotFoundPage from '../pages/NotFoundPage';
 import StatisticsPage from '../pages/StatisticsPage';
 import DashboardPage from '../pages/DashboardPage';
+import UserPage from '../pages/UserPage';
 
 const routes = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const routes = createBrowserRouter([
       {
         path: 'dashboard',
         element: <DashboardPage />,
+      },
+      {
+        path: 'user',
+        element: <UserPage />,
       },
     ],
   },

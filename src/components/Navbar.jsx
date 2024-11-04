@@ -1,6 +1,6 @@
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { LuShoppingCart } from 'react-icons/lu';
-import { LuHeart } from 'react-icons/lu';
+import { LuShoppingCart, LuUser, LuHeart } from 'react-icons/lu';
+import MobileMenu from './MobileMenu';
 
 const Navbar = () => {
   const { pathname } = useLocation();
@@ -21,7 +21,7 @@ const Navbar = () => {
 
           {/* navigation */}
           <ul
-            className={`max-w-[20rem] w-full text-base font-bold flex items-center justify-between gap-2 
+            className={`hidden max-w-[20rem] w-full text-base font-bold md:flex items-center justify-between gap-2 
               ${isHome ? 'text-white' : 'text-clr-woodsmoke'}`}>
             <NavLink
               to={'/'}
@@ -30,35 +30,73 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               to={'/statistics'}
-              className={({ isActive }) => (isActive ? 'underline' : '')}>
+              className={({ isActive }) =>
+                isActive ? 'text-clr-electric-violet' : ''
+              }>
               Statistics
             </NavLink>
             <NavLink
               to={'/dashboard'}
-              className={({ isActive }) => (isActive ? 'underline' : '')}>
+              className={({ isActive }) =>
+                isActive ? 'text-clr-electric-violet' : ''
+              }>
               Dashboard
             </NavLink>
           </ul>
 
           {/* Cart and wishlist icon */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
+            {/* cart */}
             <div className="da-indicator">
               <span className="da-indicator-item da-badge border-none bg-[#ead7fd] text-clr-electric-violet font-semibold">
                 15
               </span>
-              <div className="size-10 rounded-full border flex items-center justify-center bg-white">
+              <NavLink
+                to={'/user'}
+                className={({ isActive }) =>
+                  `size-10 rounded-full border border-solid flex items-center justify-center bg-white ${
+                    isActive
+                      ? 'border-clr-electric-violet text-clr-electric-violet'
+                      : ''
+                  }`
+                }>
                 <LuShoppingCart className="text-xl" />
-              </div>
+              </NavLink>
             </div>
 
+            {/* wishlist */}
             <div className="da-indicator">
               <span className="da-indicator-item da-badge border-none bg-[#ead7fd] text-clr-electric-violet font-semibold">
                 10
               </span>
-              <div className="size-10 rounded-full border flex items-center justify-center bg-white">
+              <NavLink
+                to={'/user'}
+                className={({ isActive }) =>
+                  `size-10 rounded-full border border-solid flex items-center justify-center bg-white ${
+                    isActive
+                      ? 'border-clr-electric-violet text-clr-electric-violet'
+                      : ''
+                  }`
+                }>
                 <LuHeart className="text-xl" />
-              </div>
+              </NavLink>
             </div>
+
+            {/* user icon */}
+            <NavLink
+              to={'/user'}
+              className={({ isActive }) =>
+                `size-10 rounded-full border border-solid flex items-center justify-center bg-white ${
+                  isActive
+                    ? 'border-clr-electric-violet text-clr-electric-violet'
+                    : ''
+                }`
+              }>
+              <LuUser className="text-xl" />
+            </NavLink>
+
+            {/* Mobile menu */}
+            <MobileMenu isHome={isHome} />
           </div>
         </section>
       </div>
