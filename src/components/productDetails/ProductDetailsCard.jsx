@@ -1,26 +1,14 @@
 import { LuHeart } from 'react-icons/lu';
 import StarRatings from './StarRatings';
 
-const product = {
-  product_id: 'P001',
-  product_title: 'Apple iPhone 15 Pro Max',
-  product_image: 'https://example.com/iphonel5promax.jpg',
-  category: 'Phones',
-  price: 1299,
-  description: 'Experience the ultimate smartphone with the iPhone 15 Pro Max.',
-  specification: [
-    '6.7-inch Super Retina XDR display',
-    'A17 Bionic chip',
-    'Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultra-wide)',
-    'LiDAR Scanner',
-    'Up to 2TB storage',
-  ],
-  availability: true,
-  rating: 4.8,
-};
-
-const ProductDetailsCard = () => {
+const ProductDetailsCard = ({
+  product,
+  handleCart,
+  handleWishlist,
+  wishlist,
+}) => {
   const {
+    product_id,
     product_title,
     product_image,
     price,
@@ -30,10 +18,15 @@ const ProductDetailsCard = () => {
     rating,
   } = product;
 
+  const isProductInWishlist = wishlist.find(
+    (p) => p.product_id === product.product_id
+  );
+  const isWished = isProductInWishlist ? true : false;
+
   return (
     <section className="max-width-wrapper p-8 bg-white rounded-[1.5rem]">
       <div className="flex flex-col items-center lg:flex-row gap-8">
-        <div className="max-w-[26.51931rem] w-full min-h-[31.5rem] bg-slate-500 rounded-2xl">
+        <div className="max-w-[26.51931rem] w-full min-h-[31.5rem] rounded-2xl">
           <img src={product_image} alt={product_title} />
         </div>
 
@@ -74,10 +67,17 @@ const ProductDetailsCard = () => {
 
           {/* buttons */}
           <div className="flex items-center gap-4 mt-4">
-            <button className="max-w-[12rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
+            <button
+              onClick={() => handleCart(product)}
+              className="max-w-[12rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
               Add to Cart
             </button>
-            <button className="size-10 rounded-full border border-solid flex items-center justify-center bg-white">
+            <button
+              onClick={() => handleWishlist(product)}
+              disabled={isWished}
+              className={`size-10 rounded-full border border-solid flex items-center justify-center ${
+                isWished ? 'bg-rose-400' : 'bg-white'
+              }`}>
               <LuHeart className="text-xl" />
             </button>
           </div>

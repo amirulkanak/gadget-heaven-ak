@@ -1,31 +1,15 @@
 import { TiDeleteOutline } from 'react-icons/ti';
 
-const product = {
-  product_id: 'P001',
-  product_title: 'Apple iPhone 15 Pro Max',
-  product_image: 'https://example.com/iphonel5promax.jpg',
-  category: 'Phones',
-  price: 1299,
-  description: 'Experience the ultimate smartphone with the iPhone 15 Pro Max.',
-  specification: [
-    '6.7-inch Super Retina XDR display',
-    'A17 Bionic chip',
-    'Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultra-wide)',
-    'LiDAR Scanner',
-    'Up to 2TB storage',
-  ],
-  availability: true,
-  rating: 4.8,
-};
-
-const WishProductCard = () => {
+const WishProductCard = ({ product, handleCart, handleRemoveFromWishlist }) => {
   const { product_id, product_title, product_image, price, description } =
     product;
 
   return (
     <div className="relative p-8 bg-white rounded-2xl flex flex-col gap-4 md:flex-row">
       {/* delete Button */}
-      <button className="absolute right-1 top-1">
+      <button
+        onClick={() => handleRemoveFromWishlist(product_id)}
+        className="absolute right-1 top-1">
         <TiDeleteOutline className="text-4xl text-rose-500" />
       </button>
 
@@ -50,7 +34,9 @@ const WishProductCard = () => {
         <p className="text-xl text-clr-woodsmoke/80 font-semibold">
           Price: ${price}
         </p>
-        <button className="max-w-[10rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
+        <button
+          onClick={() => handleCart(product)}
+          className="max-w-[10rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
           Add to Cart
         </button>
       </div>

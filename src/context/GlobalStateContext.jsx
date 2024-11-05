@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { useEffect, useState, createContext } from 'react';
 
 // Create global Context
@@ -8,26 +7,26 @@ export const GlobalStateContext = createContext();
 const GlobalStateProvider = ({ children }) => {
   // All Products data
   const [allProducts, setAllProducts] = useState([]);
-
   // Products by category
   const [categoryProducts, setCategoryProducts] = useState([]);
-
   // Category active button state
   const [activeCategoryBtn, setActiveCategoryBtn] = useState('All');
+  // Cart data state
+  const [cart, setCart] = useState([]);
+  // wishlist data state
+  const [wishlist, setWishlist] = useState([]);
+  // Total price of products in cart
+  const [totalPrice, setTotalPrice] = useState(0);
 
-  // Product data fetch with axios
-  const fetchData = async () => {
-    try {
-      const response = await axios.get('gadgetData.json');
-      setAllProducts(response.data);
-      setCategoryProducts(response.data);
-    } catch (error) {
-      console.error(error.message);
-    }
-  };
-
+  // Fetch data before component loads
   useEffect(() => {
-    fetchData();
+    fetch('gadgetData.json')
+      .then((response) => response.json())
+      .then((data) => {
+        setAllProducts(data);
+        setCategoryProducts(data);
+      })
+      .catch((error) => console.error(error.message));
   }, []);
 
   return (
@@ -39,6 +38,12 @@ const GlobalStateProvider = ({ children }) => {
         setCategoryProducts,
         activeCategoryBtn,
         setActiveCategoryBtn,
+        cart,
+        setCart,
+        wishlist,
+        setWishlist,
+        totalPrice,
+        setTotalPrice,
       }}>
       {children}
     </GlobalStateContext.Provider>

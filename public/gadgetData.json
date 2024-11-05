@@ -2,7 +2,7 @@
   {
     "product_id": "P001",
     "product_title": "Apple iPhone 15 Pro Max",
-    "product_image": "https://example.com/iphonel5promax.jpg",
+    "product_image": "https://i.ibb.co.com/3Fx7dVx/Apple-i-Phone-15-Pro-Max.png",
     "category": "Phones",
     "price": 1299,
     "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
@@ -19,7 +19,7 @@
   {
     "product_id": "P002",
     "product_title": "Samsung Galaxy S21 Ultra",
-    "product_image": "https://example.com/galaxys21ultra.jpg",
+    "product_image": "https://i.ibb.co.com/q7b6Y8b/Samsung-Galaxy-S21-Ultra.png",
     "category": "Phones",
     "price": 1199,
     "description": "The Samsung Galaxy S21 Ultra offers a premium smartphone experience.",
@@ -36,7 +36,7 @@
   {
     "product_id": "P003",
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/dellxps13.jpg",
+    "product_image": "https://i.ibb.co.com/T1y1f7h/Dell-XPS-13.png",
     "category": "Laptops",
     "price": 999,
     "description": "The Dell XPS 13 is a powerful and compact laptop.",
@@ -53,7 +53,7 @@
   {
     "product_id": "P004",
     "product_title": "Apple MacBook Pro 16",
-    "product_image": "https://example.com/macbookpro16.jpg",
+    "product_image": "https://i.ibb.co.com/jvx2zNy/Apple-Mac-Book-Pro-16.png",
     "category": "Laptops",
     "price": 2399,
     "description": "The MacBook Pro 16 is a high-performance laptop for professionals.",
@@ -70,7 +70,7 @@
   {
     "product_id": "P005",
     "product_title": "Sony WH-1000XM4",
-    "product_image": "https://example.com/sonywh1000xm4.jpg",
+    "product_image": "https://i.ibb.co.com/h8M9vwY/Sony-WH-1000-XM4.png",
     "category": "Accessories",
     "price": 349,
     "description": "The Sony WH-1000XM4 offers industry-leading noise cancellation.",
@@ -87,7 +87,7 @@
   {
     "product_id": "P006",
     "product_title": "Apple Watch Series 7",
-    "product_image": "https://example.com/applewatchseries7.jpg",
+    "product_image": "https://i.ibb.co.com/5Gg7qrd/apple-watch-series-7.png",
     "category": "Smart Watches",
     "price": 399,
     "description": "The Apple Watch Series 7 is the most advanced Apple Watch yet.",
@@ -104,7 +104,7 @@
   {
     "product_id": "P007",
     "product_title": "Samsung Galaxy Watch 4",
-    "product_image": "https://example.com/galaxywatch4.jpg",
+    "product_image": "https://i.ibb.co.com/yYP9H4n/Samsung-Galaxy-Watch-4.png",
     "category": "Smart Watches",
     "price": 249,
     "description": "The Samsung Galaxy Watch 4 is a versatile smartwatch with advanced health tracking.",
@@ -121,7 +121,7 @@
   {
     "product_id": "P008",
     "product_title": "Logitech MX Master 3",
-    "product_image": "https://example.com/logitechmxmaster3.jpg",
+    "product_image": "https://i.ibb.co.com/LvHNPJk/Logitech-MX-Master-3.png",
     "category": "Accessories",
     "price": 99,
     "description": "The Logitech MX Master 3 is a precision mouse with advanced features.",
@@ -138,7 +138,7 @@
   {
     "product_id": "P009",
     "product_title": "HP Spectre x360",
-    "product_image": "https://example.com/hpspectrex360.jpg",
+    "product_image": "https://i.ibb.co.com/zRHhmpR/hpspectrex360.png",
     "category": "Laptops",
     "price": 1299,
     "description": "The HP Spectre x360 is a versatile 2-in-1 laptop with a sleek design.",
@@ -155,7 +155,7 @@
   {
     "product_id": "P010",
     "product_title": "Google Pixel 6 Pro",
-    "product_image": "https://example.com/pixel6pro.jpg",
+    "product_image": "https://i.ibb.co.com/1dJkSTL/Google-Pixel-6-Pro.png",
     "category": "Phones",
     "price": 899,
     "description": "The Google Pixel 6 Pro offers a pure Android experience with advanced camera features.",
@@ -172,7 +172,7 @@
   {
     "product_id": "P011",
     "product_title": "Microsoft Surface Laptop 4",
-    "product_image": "https://example.com/surfacelaptop4.jpg",
+    "product_image": "https://i.ibb.co.com/qJWX1xc/Microsoft-Surface-Laptop-4.png",
     "category": "Laptops",
     "price": 999,
     "description": "The Microsoft Surface Laptop 4 is a sleek and powerful laptop with a premium build.",
@@ -189,7 +189,7 @@
   {
     "product_id": "P012",
     "product_title": "Bose QuietComfort 35 II",
-    "product_image": "https://example.com/boseqc35ii.jpg",
+    "product_image": "https://i.ibb.co.com/YbJ5V0h/Bose-Quiet-Comfort-35-II.png",
     "category": "Accessories",
     "price": 299,
     "description": "The Bose QuietComfort 35 II offers excellent noise cancellation and comfort.",
@@ -206,7 +206,7 @@
   {
     "product_id": "P013",
     "product_title": "Fitbit Charge 5",
-    "product_image": "https://example.com/fitbitcharge5.jpg",
+    "product_image": "https://i.ibb.co.com/crL6TPR/Fitbit-Charge-5.png",
     "category": "Smart Watches",
     "price": 179,
     "description": "The Fitbit Charge 5 is a fitness tracker with advanced health metrics.",
@@ -223,7 +223,7 @@
   {
     "product_id": "P014",
     "product_title": "OnePlus 9 Pro",
-    "product_image": "https://example.com/oneplus9pro.jpg",
+    "product_image": "https://i.ibb.co.com/tpwbk1P/One-Plus-9-Pro.png",
     "category": "Phones",
     "price": 969,
     "description": "The OnePlus 9 Pro offers a flagship experience with a focus on speed and performance.",
@@ -240,7 +240,7 @@
   {
     "product_id": "P015",
     "product_title": "Asus ROG Zephyrus G14",
-    "product_image": "https://example.com/rogzephyrusg14.jpg",
+    "product_image": "https://i.ibb.co.com/G5Bcr6n/Asus-ROG-Zephyrus-G14.png",
     "category": "Laptops",
     "price": 1499,
     "description": "The Asus ROG Zephyrus G14 is a powerful gaming laptop with a compact design.",
@@ -257,7 +257,7 @@
   {
     "product_id": "P016",
     "product_title": "Jabra Elite 85t",
-    "product_image": "https://example.com/jabraelite85t.jpg",
+    "product_image": "https://i.ibb.co.com/kM4sKTc/Jabra-Elite-85t.png",
     "category": "Accessories",
     "price": 229,
     "description": "The Jabra Elite 85t offers advanced noise cancellation and superior sound quality.",
@@ -274,7 +274,7 @@
   {
     "product_id": "P017",
     "product_title": "Garmin Forerunner 945",
-    "product_image": "https://example.com/forerunner945.jpg",
+    "product_image": "https://i.ibb.co.com/SfZhjts/Garmin-Forerunner-945.png",
     "category": "Smart Watches",
     "price": 599,
     "description": "The Garmin Forerunner 945 is a premium GPS smartwatch for serious athletes.",
@@ -291,7 +291,7 @@
   {
     "product_id": "P018",
     "product_title": "Sony Xperia 1 III",
-    "product_image": "https://example.com/xperia1iii.jpg",
+    "product_image": "https://i.ibb.co.com/xDs5hvH/Sony-Xperia-1-III.png",
     "category": "Phones",
     "price": 1299,
     "description": "The Sony Xperia 1 III offers a cinematic experience with a 4K HDR OLED display.",
@@ -308,7 +308,7 @@
   {
     "product_id": "P019",
     "product_title": "Lenovo ThinkPad X1 Carbon",
-    "product_image": "https://example.com/thinkpadx1carbon.jpg",
+    "product_image": "https://i.ibb.co.com/f8CLf3d/Lenovo-Think-Pad-X1-Carbon.png",
     "category": "Laptops",
     "price": 1699,
     "description": "The Lenovo ThinkPad X1 Carbon is a business laptop with a durable design.",
@@ -325,7 +325,7 @@
   {
     "product_id": "P020",
     "product_title": "Apple AirPods Pro",
-    "product_image": "https://example.com/airpodspro.jpg",
+    "product_image": "https://i.ibb.co.com/g6sHHJr/Apple-Air-Pods-Pro.png",
     "category": "Accessories",
     "price": 249,
     "description": "The Apple AirPods Pro offers active noise cancellation and a customizable fit.",

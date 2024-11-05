@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import useGlobalState from '../../hooks/useGlobalState';
 import CategoryBtn from './CategoryBtn';
 

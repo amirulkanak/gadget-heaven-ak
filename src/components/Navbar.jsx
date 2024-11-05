@@ -1,8 +1,10 @@
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { LuShoppingCart, LuUser, LuHeart } from 'react-icons/lu';
 import MobileMenu from './MobileMenu';
+import useGlobalState from '../hooks/useGlobalState';
 
 const Navbar = () => {
+  const { cart, wishlist } = useGlobalState();
   const { pathname } = useLocation();
   const isHome = pathname === '/' ? true : false;
 
@@ -48,11 +50,13 @@ const Navbar = () => {
           <div className="flex items-center gap-2 sm:gap-4">
             {/* cart */}
             <div className="da-indicator">
-              <span className="da-indicator-item da-badge border-none bg-[#ead7fd] text-clr-electric-violet font-semibold">
-                15
-              </span>
+              {cart.length > 0 && (
+                <span className="da-indicator-item da-badge border-none bg-[#ead7fd] text-clr-electric-violet font-semibold">
+                  {cart.length}
+                </span>
+              )}
               <NavLink
-                to={'/user'}
+                to={'/dashboard/cart'}
                 className={({ isActive }) =>
                   `size-10 rounded-full border border-solid flex items-center justify-center bg-white ${
                     isActive
@@ -66,11 +70,13 @@ const Navbar = () => {
 
             {/* wishlist */}
             <div className="da-indicator">
-              <span className="da-indicator-item da-badge border-none bg-[#ead7fd] text-clr-electric-violet font-semibold">
-                10
-              </span>
+              {wishlist.length > 0 && (
+                <span className="da-indicator-item da-badge border-none bg-[#ead7fd] text-clr-electric-violet font-semibold">
+                  {wishlist.length}
+                </span>
+              )}
               <NavLink
-                to={'/user'}
+                to={'/dashboard/wishlist'}
                 className={({ isActive }) =>
                   `size-10 rounded-full border border-solid flex items-center justify-center bg-white ${
                     isActive
