@@ -5,6 +5,7 @@ import NotFoundPage from '../pages/NotFoundPage';
 import StatisticsPage from '../pages/StatisticsPage';
 import DashboardPage from '../pages/DashboardPage';
 import UserPage from '../pages/UserPage';
+import ProductDetailsPage from '../pages/ProductDetailsPage';
 
 const routes = createBrowserRouter([
   {
@@ -23,10 +24,20 @@ const routes = createBrowserRouter([
       {
         path: 'dashboard',
         element: <DashboardPage />,
+        children: [
+          {
+            path: 'cart',
+            element: <UserPage />,
+          },
+        ],
       },
       {
         path: 'user',
         element: <UserPage />,
+      },
+      {
+        path: 'product/:product_id',
+        element: <ProductDetailsPage />,
       },
     ],
   },

@@ -3,6 +3,7 @@ import ProductCardsContainer from '../components/products/ProductCardsContainer'
 import Header from './../components/Header';
 
 const HomePage = () => {
+  document.title = 'Home | Gadget Heaven';
   return (
     <>
       <Header />

@@ -2,6 +2,7 @@ import PageDescription from '../components/PageDescription';
 import PageHeading from '../components/PageHeading';
 
 const UserPage = () => {
+  document.title = 'User | Gadget Heaven';
   return (
     <section>
       <div className="py-8 bg-clr-electric-violet">

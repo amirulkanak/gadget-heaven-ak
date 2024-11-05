@@ -2,6 +2,7 @@ import PageDescription from '../components/PageDescription';
 import PageHeading from '../components/PageHeading';
 
 const StatisticsPage = () => {
+  document.title = 'Statistics | Gadget Heaven';
   return (
     <section className="py-8 bg-clr-electric-violet">
       <div className="max-width-wrapper flex flex-col items-center gap-4">
