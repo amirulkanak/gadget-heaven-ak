@@ -36,7 +36,7 @@ const Navbar = () => {
               Statistics
             </NavLink>
             <NavLink
-              to={'/dashboard'}
+              to={'/dashboard/cart'}
               className={({ isActive }) =>
                 isActive ? 'text-clr-electric-violet' : ''
               }>

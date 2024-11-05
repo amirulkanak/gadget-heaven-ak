@@ -18,7 +18,7 @@ const Header = () => {
 
             {/* Action button navigate to the Dashboard page */}
             <Link
-              to={'/dashboard'}
+              to={'/dashboard/cart'}
               className="mt-2 px-[1.88rem] py-[0.94rem] text-clr-electric-violet bg-white text-xl font-bold rounded-[2rem]">
               Shop Now
             </Link>
