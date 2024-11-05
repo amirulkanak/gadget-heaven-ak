@@ -18,7 +18,7 @@ const product = {
   rating: 4.8,
 };
 
-const WishProductCard = () => {
+const CartProduct = () => {
   const { product_id, product_title, product_image, price, description } =
     product;
 
@@ -29,7 +29,7 @@ const WishProductCard = () => {
         <TiDeleteOutline className="text-4xl text-rose-500" />
       </button>
 
-      <div className="w-[17rem] min-h-[12rem] bg-slate-400 rounded-lg">
+      <div className="w-[12.5rem] min-h-[7.75rem] bg-slate-400 rounded-lg">
         <img
           className="w-full h-full object-cover"
           src={product_image}
@@ -50,12 +50,9 @@ const WishProductCard = () => {
         <p className="text-xl text-clr-woodsmoke/80 font-semibold">
           Price: ${price}
         </p>
-        <button className="max-w-[10rem] w-full py-3 rounded-[2rem] text-white bg-clr-electric-violet">
-          Add to Cart
-        </button>
       </div>
     </div>
   );
 };
 
-export default WishProductCard;
+export default CartProduct;

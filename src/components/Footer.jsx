@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="mt-auto bg-white">
-      <section className="max-width-wrapper py-[6.25rem] flex flex-col items-center">
+      <section className="max-width-wrapper pt-[6.25rem] pb-8 flex flex-col items-center">
         <div className="space-y-3 pb-8 border-b mb-8 w-full text-center">
           <h2 className="text-clr-woodsmoke text-[2rem] leading-[2.5rem] font-bold">
             Gadget Heaven
@@ -40,6 +40,15 @@ const Footer = () => {
               <li>Returns</li>
             </ul>
           </div>
+        </div>
+
+        {/* terms and copyright */}
+        <div className="text-center mt-8 text-clr-woodsmoke/60 text-base pt-8 border-t w-full">
+          <p>
+            &copy; {new Date().getFullYear()} Gadget Heaven. All rights
+            reserved.
+          </p>
+          <p>Designed by Programming-Hero.com and developed by Amirul Kanak</p>
         </div>
       </section>
     </footer>
