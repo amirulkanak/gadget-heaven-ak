@@ -11,10 +11,12 @@ const buttonCategory = [
 ];
 
 const CategoryBtnsContainer = () => {
-  const { allProducts, setCategoryProducts } = useGlobalState();
-
-  // button active state
-  const [activeCategoryBtn, setActiveCategoryBtn] = useState('All');
+  const {
+    allProducts,
+    setCategoryProducts,
+    activeCategoryBtn,
+    setActiveCategoryBtn,
+  } = useGlobalState();
 
   // filter products by category
   const handleCategoryBtnClick = (category) => {

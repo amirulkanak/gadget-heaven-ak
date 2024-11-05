@@ -12,6 +12,9 @@ const GlobalStateProvider = ({ children }) => {
   // Products by category
   const [categoryProducts, setCategoryProducts] = useState([]);
 
+  // Category active button state
+  const [activeCategoryBtn, setActiveCategoryBtn] = useState('All');
+
   // Product data fetch with axios
   const fetchData = async () => {
     try {
@@ -34,6 +37,8 @@ const GlobalStateProvider = ({ children }) => {
         setAllProducts,
         categoryProducts,
         setCategoryProducts,
+        activeCategoryBtn,
+        setActiveCategoryBtn,
       }}>
       {children}
     </GlobalStateContext.Provider>

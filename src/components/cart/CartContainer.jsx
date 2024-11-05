@@ -19,10 +19,8 @@ const CartContainer = () => {
               <BsSliders2Vertical />
             </button>
 
-            <button>
-              <button className="w-[13rem] py-3 rounded-[2rem] text-xl font-bold text-white bg-clr-electric-violet">
-                Purchase
-              </button>
+            <button className="w-[13rem] py-3 rounded-[2rem] text-xl font-bold text-white bg-clr-electric-violet">
+              Purchase
             </button>
           </div>
         </div>
