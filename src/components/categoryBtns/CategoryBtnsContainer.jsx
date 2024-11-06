@@ -10,17 +10,10 @@ const buttonCategory = [
 ];
 
 const CategoryBtnsContainer = () => {
-  const {
-    allProducts,
-    setCategoryProducts,
-    activeCategoryBtn,
-    setActiveCategoryBtn,
-  } = useGlobalState();
+  const { allProducts, setCategoryProducts } = useGlobalState();
 
   // filter products by category
   const handleCategoryBtnClick = (category) => {
-    setActiveCategoryBtn(category);
-
     if (category === 'All') {
       setCategoryProducts(allProducts);
     } else {
@@ -36,7 +29,6 @@ const CategoryBtnsContainer = () => {
       {buttonCategory.map((category) => (
         <CategoryBtn
           handleCategoryBtnClick={handleCategoryBtnClick}
-          activeCategoryBtn={activeCategoryBtn}
           key={category}>
           {category}
         </CategoryBtn>

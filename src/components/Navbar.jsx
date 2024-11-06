@@ -6,7 +6,15 @@ import useGlobalState from '../hooks/useGlobalState';
 const Navbar = () => {
   const { cart, wishlist } = useGlobalState();
   const { pathname } = useLocation();
-  const isHome = pathname === '/' ? true : false;
+  const isHome =
+    pathname === '/' ||
+    pathname === '/All' ||
+    pathname === '/Phones' ||
+    pathname === '/Laptops' ||
+    pathname === '/Accessories' ||
+    pathname === '/Smart Watches'
+      ? true
+      : false;
 
   return (
     <nav className="max-w-[96.5rem] w-full mx-auto px-2">

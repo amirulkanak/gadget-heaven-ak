@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import CategoryBtnsContainer from '../components/categoryBtns/CategoryBtnsContainer';
 import ProductCardsContainer from '../components/products/ProductCardsContainer';
 import Header from './../components/Header';
@@ -18,7 +19,8 @@ const HomePage = () => {
           <CategoryBtnsContainer />
 
           {/* Product Card Container */}
-          <ProductCardsContainer />
+          <Outlet />
+          {/* <ProductCardsContainer /> */}
         </section>
       </main>
     </>

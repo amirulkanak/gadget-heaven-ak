@@ -8,6 +8,7 @@ import UserPage from '../pages/UserPage';
 import ProductDetailsPage from '../pages/ProductDetailsPage';
 import CartContainer from '../components/cart/CartContainer';
 import WishlistContainer from '../components/wishlist/WishlistContainer';
+import ProductCardsContainer from '../components/products/ProductCardsContainer';
 
 const routes = createBrowserRouter([
   {
@@ -18,6 +19,16 @@ const routes = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />,
+        children: [
+          {
+            path: '/',
+            element: <ProductCardsContainer />,
+          },
+          {
+            path: '/:category',
+            element: <ProductCardsContainer />,
+          },
+        ],
       },
       {
         path: 'statistics',
