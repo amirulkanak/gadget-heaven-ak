@@ -41,7 +41,7 @@ const ProductDetailsContainer = () => {
 
       <Link
         to={'/'}
-        className="block w-fit mt-6 px-6 py-2 text-xl border border-clr-electric-violet/60 border-white rounded-[2rem] text-center">
+        className="block w-fit mt-6 px-6 py-2 text-xl border border-solid border-clr-electric-violet/60 rounded-[2rem] text-center">
         Back to Products
       </Link>
     </section>

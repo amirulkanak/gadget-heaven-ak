@@ -9,8 +9,6 @@ const GlobalStateProvider = ({ children }) => {
   const [allProducts, setAllProducts] = useState([]);
   // Products by category
   const [categoryProducts, setCategoryProducts] = useState([]);
-  // Category active button state
-  const [activeCategoryBtn, setActiveCategoryBtn] = useState('All');
   // Cart data state
   const [cart, setCart] = useState([]);
   // wishlist data state
@@ -25,8 +23,7 @@ const GlobalStateProvider = ({ children }) => {
       .then((data) => {
         setAllProducts(data);
         setCategoryProducts(data);
-      })
-      .catch((error) => console.error(error.message));
+      });
   }, []);
 
   return (
@@ -36,8 +33,6 @@ const GlobalStateProvider = ({ children }) => {
         setAllProducts,
         categoryProducts,
         setCategoryProducts,
-        activeCategoryBtn,
-        setActiveCategoryBtn,
         cart,
         setCart,
         wishlist,
