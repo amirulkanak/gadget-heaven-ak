@@ -23,11 +23,13 @@ const ProductDetailsContainer = () => {
       return;
     }
     setCart([...cart, addProduct]);
+    toast.success('Product added to cart');
   };
 
   // Add product to wishlist
   const handleWishlist = (addProduct) => {
     setWishlist([...wishlist, addProduct]);
+    toast.success('Product added to wishlist');
   };
 
   return (
