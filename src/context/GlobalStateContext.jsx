@@ -18,7 +18,7 @@ const GlobalStateProvider = ({ children }) => {
 
   // Fetch data before component loads
   useEffect(() => {
-    fetch('gadgetData.json')
+    fetch('/gadgetData.json')
       .then((response) => response.json())
       .then((data) => {
         setAllProducts(data);
